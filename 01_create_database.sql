@@ -55,8 +55,8 @@ PRIMARY KEY (id),
 CHECK (age >=18)
 );
 
-CREATE TABLE persons6 (
-id int NOT NULL AUTO INCREMENT,
+CREATE TABLE persons7 (
+id int NOT NULL AUTO_INCREMENT,
 name varchar (100) NOT NULL,
 age int,
 email varchar (50),
